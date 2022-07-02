@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkgray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.every{
+    background-color: aqua;
+    padding: 100px;
+}
+
+.total{
+    display: flex;
+    margin-top: 30px;
+}
+
+.container{
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 30px;
+}
+
+.first{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.first-sub{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.power{
+    font-size: 10px;
+    font-weight: 200px;
+    line-height: 15px;
+}
+
+.container1{
+    padding: 20px;
+    background-color: bisque;
+    margin-left: 160px;
+    font-family: sans-serif;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-color: blue;
+    border-top-style: solid;
+}
+
+.second{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.second-sub{
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.image{
+    height: 25px;
+    margin-left: 120px;
+}
+
+.total-1{
+    display: block;
+    margin-left: 10px;
+}
+
+.container2{
+    background-color: bisque;
+    padding: 20px;
+    font-family: sans-serif;
+    border-color: brown;
+    border-top-style: solid;
+}
+
+.third{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.third-sub{
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.image-1{
+    height: 25px;
+    margin-left: 120px;
+}
+
+.container3{
+    background-color: bisque;
+    padding: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    border-color: goldenrod;
+    border-top-style: solid;
+}
+
+.forth{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.forth-sub{
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.image-2{
+    height: 25px;
+    margin-left: 120px;
+}
+
+.container4{
+    padding: 20px;
+    background-color: bisque;
+    margin-left: 15px;
+    font-family: sans-serif;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-color: blue;
+    border-top-style: solid;
+}
+
+.fifth{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.fifth-sub{
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.image-3{
+    height: 25px;
+    margin-left: 120px;   
+}
+
+@media (max-width:1000px) {
+       body{
+        font-size: 20px;
+        font-weight: 700;
+        color: red;
+        background-color: cornflowerblue;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+    .container1{
+        margin-left: 5px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+   .total{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+   }
+
+   .every{
+    background-color: cornsilk;
+    padding: 10px;
+   }
+}
